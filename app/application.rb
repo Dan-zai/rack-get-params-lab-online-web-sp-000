@@ -19,6 +19,8 @@ class Application
       resp.write "Your cart is empty"
     else @@art.each do |a|
       resp.write "#{a}\n"
+    end
+  end
       
       
       
